@@ -1,0 +1,140 @@
+#intro{
+    height: calc(100vh - 5rem);
+    /* height: auto; */
+    width: 100vw;
+    /* max-width: 75rem; */
+    max-width: 66rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+   
+}
+.bg{
+    border: 1px solid white;
+    border-radius: 50%;
+    /* margin-left: 100px; */
+    /* padding: 1rem; */
+    /* mix-blend-mode:luminosity; */
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+.bg:hover{
+    transition-duration: 0.5s;
+    filter: grayscale(1%);
+}
+.introContent{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: rgb(70, 70, 43);
+}
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+}
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    /* border: none; */
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+/* responsiveness */
+
+/* ////////////////////////// */
+/*
+
+@media screen and (max-width: 1098px) {
+    .bg {
+       
+        position: absolute;
+        right: 20px;
+    }
+}
+@media screen and (max-width: 673px) {
+    .bg {
+       
+       position: absolute;
+       right: 20px;
+    
+    }
+}
+@media screen and (max-width: 635px) {
+    .bg {
+       
+       position: fixed;
+    }
+}
+@media screen and (max-width:1100px){
+    .introContent{
+        padding: 15rem;
+        z-index: 1;
+    }
+}
+ //////////////////////////////////////////// 
+@media screen and (max-width:990px){
+    .introContent{
+        width: 82vw;
+        height: 20vh;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:990px){
+    .introContent{
+        height: 200vh;
+    }
+}
+@media screen and (max-width:787px){
+    .introContent{
+        height: 237vh;
+    }
+}
+@media screen and (max-width:720px){
+    .introContent{
+        height: 270vh;
+        top: -50rem;
+    }
+}
+@media screen and (max-width:483px){
+    .introContent{
+        height: 300vh;
+        top: -50rem;
+    }
+}
+@media screen and (max-width:385px){
+    .introContent{
+        height: 320vh;
+        top: -50rem;
+    }
+}
+@media screen and (max-width:499px){
+    .introContent{
+        height: 320vh;
+        top: -50rem;
+        width: 50rem;
+    }
+} */
+
+
+ 
+
