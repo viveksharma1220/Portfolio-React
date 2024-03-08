@@ -1,4 +1,4 @@
-#contactpage{
+#contactPage{
     min-height: calc(100vh- 4rem);
     width: 100vw;
     max-width: 60rem;
@@ -30,13 +30,13 @@
 .name, .email, .msg{
     font-size: meedium;
     max-width: 40rem;
-    width: 100%;
+    width: 30%;
     margin: 0.5rem;
     padding: 0.5rem;
     color: white;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40,40,40);
+    background: rgb(0, 0, 0);
 }
 .submitBtn{
   background: white;

@@ -9,11 +9,10 @@ const Skills = () => {
     <section id="skills">
       <span className="skillTitle">What I do</span>
       <span className="skillDescription">
-        I am a skilled web developer proficient in front-end and back-end
-        technologies, crafting dynamic and responsive websites with clean code
-        and intuitive user experiences. Experienced in HTML, CSS, JavaScript,
-        and various frameworks, I specialize in creating tailored digital
-        solutions to meet client needs and enhance online presence.
+      Innovative and detail-Oriented Fresher Front End Developer with a passion for creating responsive and user
+friendly websites with a great interest in functional programming. . Skilled
+ in collaborating with teammates and staying up-to-date on emerging technologies. Highly passionate about
+ ensuring that the user experience is seamless and visually appealing by using ui/ux knowledge to the fullest.
       </span>
       <div className="skillBars">
         {/* 1/ */}

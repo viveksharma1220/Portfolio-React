@@ -57,6 +57,28 @@
     height: 1rem;
 }
 
+.hello, .introText {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 8s infinite alternate; /* 4s total duration (2s for typing, 2s for erasing), infinite loop, alternate direction */
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%; /* Fully typed */
+    }
+    100% {
+      width: 0; /* Fully erased */
+    }
+  }
+
 /* responsiveness */
 
 /* ////////////////////////// */
